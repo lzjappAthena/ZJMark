@@ -24,13 +24,14 @@
 
 - (IBAction)testHCNetWorking:(id)sender {
     HCNetWorking *net = [[HCNetWorking alloc] init];
-//    [net getNetWoringWithMsg:nil];
+    [net getNetWoringWithMsg:nil];
     [net getNetWoringWithMsg:@"nihao"];
 }
 
 - (IBAction)testHCLogin:(id)sender {
     HCLogin *login = [[HCLogin alloc] init];
     [login needToLoginWithToken:@"2a8744c5-485d-42cf-9e52-bee01d60493d"];
+    [login dealResultToLoginWithToken:@"V0.1.1"];
 }
 
 @end

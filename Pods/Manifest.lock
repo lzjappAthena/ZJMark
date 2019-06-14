@@ -1,10 +1,10 @@
 PODS:
-  - HCLogin (0.1.0):
+  - HCLogin (0.1.1):
     - HCNetWorking
   - HCNetWorking (0.1.1)
 
 DEPENDENCIES:
-  - HCLogin
+  - HCLogin (~> 0.1.1)
   - HCNetWorking (~> 0.1.1)
 
 SPEC REPOS:
@@ -13,9 +13,9 @@ SPEC REPOS:
     - HCNetWorking
 
 SPEC CHECKSUMS:
-  HCLogin: 9c099c31f76359d265b142f8941676cbd2f0f6a5
+  HCLogin: fbb000b3531083b7508f111e7c5dea40b5f1595d
   HCNetWorking: 7fd50f13dc1a764ef4113708726026fffa71e6c5
 
-PODFILE CHECKSUM: 507339e28054148b5fb58a22aea3ceda1578e772
+PODFILE CHECKSUM: e5409cdbe62a7590dde1ef817648f0b841404357
 
 COCOAPODS: 1.5.2
