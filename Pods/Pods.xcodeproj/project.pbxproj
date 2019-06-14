@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030847ADD987D11A65DEFA9A0BF392AC /* HCLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4198946FFD7BF72998ED77E59C1774D /* HCLogin-dummy.m */; };
+		030847ADD987D11A65DEFA9A0BF392AC /* HCLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08200AF6ABA36F7086F6315088333527 /* HCLogin-dummy.m */; };
 		24EDA1C753085A2BF28DFCFF26AFBDD7 /* Pods-HCDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 234562A0AB3FB4B8993A64D2BB409B95 /* Pods-HCDemo-dummy.m */; };
-		4E3AEBBF4838737B11395F64B8B1CF9C /* HCLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5851EAC0BB41A4074FDA0AD03B4E7502 /* HCLogin.m */; };
-		A59E819701088E00940B2289D3FC71E6 /* HCNetWorking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EC230796F009DB770923110D95F64B9 /* HCNetWorking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AEA7E222989E87F208A536C214BB8CB6 /* HCNetWorking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F8461C3CADBD3843D4B38046868170 /* HCNetWorking-dummy.m */; };
-		D2F769029FE4517BB5682A3DCF2FD5FC /* HCNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = B7382BC1056C8394012B1A8937580971 /* HCNetWorking.m */; };
-		F068F1F5D59646A6414752788F919DC2 /* HCLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F77AF4B61A87FADFC51AE58FCBA74F /* HCLogin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E3AEBBF4838737B11395F64B8B1CF9C /* HCLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AF7204BE4F2BC38ADDA52DF218D07F /* HCLogin.m */; };
+		A59E819701088E00940B2289D3FC71E6 /* HCNetWorking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB981316EADDD59AD8BF241E5E4C593 /* HCNetWorking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AEA7E222989E87F208A536C214BB8CB6 /* HCNetWorking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2708256F6ED267C0FDCD4DCC542FFE /* HCNetWorking-dummy.m */; };
+		D2F769029FE4517BB5682A3DCF2FD5FC /* HCNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = F057A4294BC5941E74A1DDB28887430B /* HCNetWorking.m */; };
+		F068F1F5D59646A6414752788F919DC2 /* HCLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4E47902903ACCBB2BE9787AEC805F8 /* HCLogin.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,33 +41,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01F8461C3CADBD3843D4B38046868170 /* HCNetWorking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCNetWorking-dummy.m"; sourceTree = "<group>"; };
-		02524994FE8A5556AF20843B9DC6B0B1 /* HCNetWorking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HCNetWorking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		08200AF6ABA36F7086F6315088333527 /* HCLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCLogin-dummy.m"; sourceTree = "<group>"; };
 		15CDA6209076F361D4A1DD5D29F4846F /* libPods-HCDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HCDemo.a"; path = "libPods-HCDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		234562A0AB3FB4B8993A64D2BB409B95 /* Pods-HCDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HCDemo-dummy.m"; sourceTree = "<group>"; };
-		2EC230796F009DB770923110D95F64B9 /* HCNetWorking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCNetWorking.h; path = HCNetWorking/Classes/HCNetWorking.h; sourceTree = "<group>"; };
-		3EF597B0BD0FFB17902903165193E381 /* HCNetWorking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCNetWorking-prefix.pch"; sourceTree = "<group>"; };
+		2FB981316EADDD59AD8BF241E5E4C593 /* HCNetWorking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCNetWorking.h; path = HCNetWorking/Classes/HCNetWorking.h; sourceTree = "<group>"; };
 		4D92CFB5FADFBDCF495F65F8254898D3 /* Pods-HCDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCDemo-resources.sh"; sourceTree = "<group>"; };
-		5851EAC0BB41A4074FDA0AD03B4E7502 /* HCLogin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCLogin.m; path = HCLogin/Classes/HCLogin.m; sourceTree = "<group>"; };
-		5CDAC1D344ED500D39A7CEFFAB76EA17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5F24644B1CC2BFE2511513151E0FFBC8 /* HCLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCLogin-prefix.pch"; sourceTree = "<group>"; };
+		75801F3E4B8012B390F170CC4A6BD33F /* HCLogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCLogin.xcconfig; sourceTree = "<group>"; };
 		75C322261108DFC74EF6593F9D4131EE /* Pods-HCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		78EC3D1FCC07A28D9B803719C107752F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7ADB48D4C62790522787EBA18AE1464B /* HCLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCLogin-prefix.pch"; sourceTree = "<group>"; };
-		8BB060FBE9C2F844378A16F7433FAE34 /* HCNetWorking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCNetWorking.xcconfig; sourceTree = "<group>"; };
+		7C2708256F6ED267C0FDCD4DCC542FFE /* HCNetWorking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCNetWorking-dummy.m"; sourceTree = "<group>"; };
+		82B7D6C2547C969293976B6807F34BDC /* HCNetWorking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCNetWorking-prefix.pch"; sourceTree = "<group>"; };
+		87CA8058857617C19EF79FBF0E455EE4 /* HCNetWorking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCNetWorking.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97F77AF4B61A87FADFC51AE58FCBA74F /* HCLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCLogin.h; path = HCLogin/Classes/HCLogin.h; sourceTree = "<group>"; };
 		A89F0A3690E028E709DAC0B638564AF2 /* libHCNetWorking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHCNetWorking.a; path = libHCNetWorking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00F51E39B355845DF1E78C08DF4EECB /* libHCLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHCLogin.a; path = libHCLogin.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2ADE18D89911450AEE3DB9867373EDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		B7382BC1056C8394012B1A8937580971 /* HCNetWorking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCNetWorking.m; path = HCNetWorking/Classes/HCNetWorking.m; sourceTree = "<group>"; };
-		BEBBFD6B6F27256075758A6F737A4894 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D4198946FFD7BF72998ED77E59C1774D /* HCLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCLogin-dummy.m"; sourceTree = "<group>"; };
+		B2AF7204BE4F2BC38ADDA52DF218D07F /* HCLogin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCLogin.m; path = HCLogin/Classes/HCLogin.m; sourceTree = "<group>"; };
+		BE4E47902903ACCBB2BE9787AEC805F8 /* HCLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCLogin.h; path = HCLogin/Classes/HCLogin.h; sourceTree = "<group>"; };
 		DB01A85AD72492742139F0CB14E1B5F6 /* Pods-HCDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCDemo-frameworks.sh"; sourceTree = "<group>"; };
-		DF9B17BA2BA059820952D12649E53D35 /* HCLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HCLogin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DFE63D0C1150278E09699CEBE7A6D64F /* Pods-HCDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HCDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E663B7E0D7AEB41F0F3D2CF5D52843AE /* Pods-HCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCDemo.release.xcconfig"; sourceTree = "<group>"; };
 		ED5E86B25893D7A1FB09FABC5D727107 /* Pods-HCDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		F528DDC1F5BE280DBB59F0F8D0831F28 /* HCLogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCLogin.xcconfig; sourceTree = "<group>"; };
+		F057A4294BC5941E74A1DDB28887430B /* HCNetWorking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCNetWorking.m; path = HCNetWorking/Classes/HCNetWorking.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,16 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		043309B57D52E97E8E1395839E41ADB0 /* HCNetWorking */ = {
+		021E228429C9467F2B75B8E7C7754F51 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2EC230796F009DB770923110D95F64B9 /* HCNetWorking.h */,
-				B7382BC1056C8394012B1A8937580971 /* HCNetWorking.m */,
-				DC6E6409EAA9EBA87AA104094D5024E0 /* Pod */,
-				3311E0E85380D05A8A1ED445E2F71435 /* Support Files */,
+				75801F3E4B8012B390F170CC4A6BD33F /* HCLogin.xcconfig */,
+				08200AF6ABA36F7086F6315088333527 /* HCLogin-dummy.m */,
+				5F24644B1CC2BFE2511513151E0FFBC8 /* HCLogin-prefix.pch */,
 			);
-			name = HCNetWorking;
-			path = ../Lib/HCNetWorking;
+			name = "Support Files";
+			path = "../Target Support Files/HCLogin";
 			sourceTree = "<group>";
 		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
@@ -129,54 +122,43 @@
 			path = "Target Support Files/Pods-HCDemo";
 			sourceTree = "<group>";
 		};
-		2A85EFA5BF7025B8FA7DA8D7CE3011FE /* Development Pods */ = {
+		46800AF5D20B36DE7AAA5EB5AD8BCA4C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7580B26479BEB06E032025DF31122019 /* HCLogin */,
-				043309B57D52E97E8E1395839E41ADB0 /* HCNetWorking */,
+				DEF543271718AAD877505F601D297E38 /* HCLogin */,
+				7B67261837373112B53F98EAD67CCE36 /* HCNetWorking */,
 			);
-			name = "Development Pods";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		3311E0E85380D05A8A1ED445E2F71435 /* Support Files */ = {
+		5F9844BCA5253F25492E9404B90736DC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8BB060FBE9C2F844378A16F7433FAE34 /* HCNetWorking.xcconfig */,
-				01F8461C3CADBD3843D4B38046868170 /* HCNetWorking-dummy.m */,
-				3EF597B0BD0FFB17902903165193E381 /* HCNetWorking-prefix.pch */,
+				87CA8058857617C19EF79FBF0E455EE4 /* HCNetWorking.xcconfig */,
+				7C2708256F6ED267C0FDCD4DCC542FFE /* HCNetWorking-dummy.m */,
+				82B7D6C2547C969293976B6807F34BDC /* HCNetWorking-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../../Pods/Target Support Files/HCNetWorking";
+			path = "../Target Support Files/HCNetWorking";
 			sourceTree = "<group>";
 		};
-		7580B26479BEB06E032025DF31122019 /* HCLogin */ = {
+		7B67261837373112B53F98EAD67CCE36 /* HCNetWorking */ = {
 			isa = PBXGroup;
 			children = (
-				97F77AF4B61A87FADFC51AE58FCBA74F /* HCLogin.h */,
-				5851EAC0BB41A4074FDA0AD03B4E7502 /* HCLogin.m */,
-				778DC164D233CEE753BFDD730FB8435A /* Pod */,
-				B8DC92488567469F0552CE4D44247625 /* Support Files */,
+				2FB981316EADDD59AD8BF241E5E4C593 /* HCNetWorking.h */,
+				F057A4294BC5941E74A1DDB28887430B /* HCNetWorking.m */,
+				5F9844BCA5253F25492E9404B90736DC /* Support Files */,
 			);
-			name = HCLogin;
-			path = ../Lib/HCLogin;
-			sourceTree = "<group>";
-		};
-		778DC164D233CEE753BFDD730FB8435A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DF9B17BA2BA059820952D12649E53D35 /* HCLogin.podspec */,
-				BEBBFD6B6F27256075758A6F737A4894 /* LICENSE */,
-				5CDAC1D344ED500D39A7CEFFAB76EA17 /* README.md */,
-			);
-			name = Pod;
+			name = HCNetWorking;
+			path = HCNetWorking;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2A85EFA5BF7025B8FA7DA8D7CE3011FE /* Development Pods */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				46800AF5D20B36DE7AAA5EB5AD8BCA4C /* Pods */,
 				9AD187359757D681DD521D746A24CC73 /* Products */,
 				E22C352A76813A7367D0F54E638DD6C4 /* Targets Support Files */,
 			);
@@ -192,25 +174,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B8DC92488567469F0552CE4D44247625 /* Support Files */ = {
+		DEF543271718AAD877505F601D297E38 /* HCLogin */ = {
 			isa = PBXGroup;
 			children = (
-				F528DDC1F5BE280DBB59F0F8D0831F28 /* HCLogin.xcconfig */,
-				D4198946FFD7BF72998ED77E59C1774D /* HCLogin-dummy.m */,
-				7ADB48D4C62790522787EBA18AE1464B /* HCLogin-prefix.pch */,
+				BE4E47902903ACCBB2BE9787AEC805F8 /* HCLogin.h */,
+				B2AF7204BE4F2BC38ADDA52DF218D07F /* HCLogin.m */,
+				021E228429C9467F2B75B8E7C7754F51 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/HCLogin";
-			sourceTree = "<group>";
-		};
-		DC6E6409EAA9EBA87AA104094D5024E0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				02524994FE8A5556AF20843B9DC6B0B1 /* HCNetWorking.podspec */,
-				B2ADE18D89911450AEE3DB9867373EDA /* LICENSE */,
-				78EC3D1FCC07A28D9B803719C107752F /* README.md */,
-			);
-			name = Pod;
+			name = HCLogin;
+			path = HCLogin;
 			sourceTree = "<group>";
 		};
 		E22C352A76813A7367D0F54E638DD6C4 /* Targets Support Files */ = {
@@ -435,7 +407,7 @@
 		};
 		18EF463A465EFCC0D2A0136D86382CCD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F528DDC1F5BE280DBB59F0F8D0831F28 /* HCLogin.xcconfig */;
+			baseConfigurationReference = 75801F3E4B8012B390F170CC4A6BD33F /* HCLogin.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -522,7 +494,7 @@
 		};
 		957959C5C999AD25F0A555E08F16B041 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F528DDC1F5BE280DBB59F0F8D0831F28 /* HCLogin.xcconfig */;
+			baseConfigurationReference = 75801F3E4B8012B390F170CC4A6BD33F /* HCLogin.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -545,7 +517,7 @@
 		};
 		BA642BE6702A405A796C7F2A8BEC8217 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BB060FBE9C2F844378A16F7433FAE34 /* HCNetWorking.xcconfig */;
+			baseConfigurationReference = 87CA8058857617C19EF79FBF0E455EE4 /* HCNetWorking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -568,7 +540,7 @@
 		};
 		C2395B38D1D1C46B8B8019A999CF73FA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BB060FBE9C2F844378A16F7433FAE34 /* HCNetWorking.xcconfig */;
+			baseConfigurationReference = 87CA8058857617C19EF79FBF0E455EE4 /* HCNetWorking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

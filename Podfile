@@ -6,8 +6,10 @@ target 'HCDemo' do
   # use_frameworks!
   
 
-  pod 'HCNetWorking', :path => 'Lib/HCNetWorking'
-  pod 'HCLogin', :path => 'Lib/HCLogin'
+#  pod 'HCNetWorking', :path => 'Lib/HCNetWorking'
+  pod 'HCNetWorking'
+#  pod 'HCLogin', :path => 'Lib/HCLogin'
+  pod 'HCLogin'
   # Pods for HCDemo
 
 end
