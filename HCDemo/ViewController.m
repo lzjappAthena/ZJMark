@@ -25,7 +25,7 @@
 - (IBAction)testHCNetWorking:(id)sender {
     HCNetWorking *net = [[HCNetWorking alloc] init];
     [net getNetWoringWithMsg:nil];
-    [net getNetWoringWithMsg:@"nihao"];
+    [net postNetWoringWithMsg:@"post"];
 }
 
 - (IBAction)testHCLogin:(id)sender {
