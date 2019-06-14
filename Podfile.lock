@@ -1,11 +1,11 @@
 PODS:
   - HCLogin (0.1.0):
     - HCNetWorking
-  - HCNetWorking (0.1.0)
+  - HCNetWorking (0.1.1)
 
 DEPENDENCIES:
   - HCLogin
-  - HCNetWorking
+  - HCNetWorking (~> 0.1.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -14,8 +14,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   HCLogin: 9c099c31f76359d265b142f8941676cbd2f0f6a5
-  HCNetWorking: 0dcb23a107b5411301822d36a06fd41c51ca9ae7
+  HCNetWorking: 7fd50f13dc1a764ef4113708726026fffa71e6c5
 
-PODFILE CHECKSUM: 9fda86e5e91c94e435de4526eb9a5b2cf5de7306
+PODFILE CHECKSUM: 507339e28054148b5fb58a22aea3ceda1578e772
 
 COCOAPODS: 1.5.2

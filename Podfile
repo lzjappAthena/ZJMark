@@ -7,7 +7,7 @@ target 'HCDemo' do
   
 
 #  pod 'HCNetWorking', :path => 'Lib/HCNetWorking'
-  pod 'HCNetWorking'
+  pod 'HCNetWorking' , '~> 0.1.1'
 #  pod 'HCLogin', :path => 'Lib/HCLogin'
   pod 'HCLogin'
   # Pods for HCDemo
