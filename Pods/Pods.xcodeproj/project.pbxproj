@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030847ADD987D11A65DEFA9A0BF392AC /* HCLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4198946FFD7BF72998ED77E59C1774D /* HCLogin-dummy.m */; };
+		24EDA1C753085A2BF28DFCFF26AFBDD7 /* Pods-HCDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 234562A0AB3FB4B8993A64D2BB409B95 /* Pods-HCDemo-dummy.m */; };
+		4E3AEBBF4838737B11395F64B8B1CF9C /* HCLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5851EAC0BB41A4074FDA0AD03B4E7502 /* HCLogin.m */; };
+		A59E819701088E00940B2289D3FC71E6 /* HCNetWorking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EC230796F009DB770923110D95F64B9 /* HCNetWorking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AEA7E222989E87F208A536C214BB8CB6 /* HCNetWorking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F8461C3CADBD3843D4B38046868170 /* HCNetWorking-dummy.m */; };
+		D2F769029FE4517BB5682A3DCF2FD5FC /* HCNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = B7382BC1056C8394012B1A8937580971 /* HCNetWorking.m */; };
+		F068F1F5D59646A6414752788F919DC2 /* HCLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F77AF4B61A87FADFC51AE58FCBA74F /* HCLogin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D692205135C378E7E52FF8FB4543387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D21F41FA7F407ABCDEEEDC6EFE17983E;
+			remoteInfo = HCLogin;
+		};
+		425BEF11355EBB4D690431823DAADEB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBBF41AB84A08F427837324ACFF0FBB3;
+			remoteInfo = HCNetWorking;
+		};
+		7047DB367A7265A7558FE431E4893A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBBF41AB84A08F427837324ACFF0FBB3;
+			remoteInfo = HCNetWorking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F8461C3CADBD3843D4B38046868170 /* HCNetWorking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCNetWorking-dummy.m"; sourceTree = "<group>"; };
+		02524994FE8A5556AF20843B9DC6B0B1 /* HCNetWorking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HCNetWorking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		15CDA6209076F361D4A1DD5D29F4846F /* libPods-HCDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HCDemo.a"; path = "libPods-HCDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		234562A0AB3FB4B8993A64D2BB409B95 /* Pods-HCDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HCDemo-dummy.m"; sourceTree = "<group>"; };
+		2EC230796F009DB770923110D95F64B9 /* HCNetWorking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCNetWorking.h; path = HCNetWorking/Classes/HCNetWorking.h; sourceTree = "<group>"; };
+		3EF597B0BD0FFB17902903165193E381 /* HCNetWorking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCNetWorking-prefix.pch"; sourceTree = "<group>"; };
+		4D92CFB5FADFBDCF495F65F8254898D3 /* Pods-HCDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCDemo-resources.sh"; sourceTree = "<group>"; };
+		5851EAC0BB41A4074FDA0AD03B4E7502 /* HCLogin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCLogin.m; path = HCLogin/Classes/HCLogin.m; sourceTree = "<group>"; };
+		5CDAC1D344ED500D39A7CEFFAB76EA17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		75C322261108DFC74EF6593F9D4131EE /* Pods-HCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		78EC3D1FCC07A28D9B803719C107752F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7ADB48D4C62790522787EBA18AE1464B /* HCLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCLogin-prefix.pch"; sourceTree = "<group>"; };
+		8BB060FBE9C2F844378A16F7433FAE34 /* HCNetWorking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCNetWorking.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97F77AF4B61A87FADFC51AE58FCBA74F /* HCLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCLogin.h; path = HCLogin/Classes/HCLogin.h; sourceTree = "<group>"; };
+		A89F0A3690E028E709DAC0B638564AF2 /* libHCNetWorking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHCNetWorking.a; path = libHCNetWorking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00F51E39B355845DF1E78C08DF4EECB /* libHCLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHCLogin.a; path = libHCLogin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2ADE18D89911450AEE3DB9867373EDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B7382BC1056C8394012B1A8937580971 /* HCNetWorking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCNetWorking.m; path = HCNetWorking/Classes/HCNetWorking.m; sourceTree = "<group>"; };
+		BEBBFD6B6F27256075758A6F737A4894 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D4198946FFD7BF72998ED77E59C1774D /* HCLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCLogin-dummy.m"; sourceTree = "<group>"; };
+		DB01A85AD72492742139F0CB14E1B5F6 /* Pods-HCDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCDemo-frameworks.sh"; sourceTree = "<group>"; };
+		DF9B17BA2BA059820952D12649E53D35 /* HCLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HCLogin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DFE63D0C1150278E09699CEBE7A6D64F /* Pods-HCDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HCDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E663B7E0D7AEB41F0F3D2CF5D52843AE /* Pods-HCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCDemo.release.xcconfig"; sourceTree = "<group>"; };
+		ED5E86B25893D7A1FB09FABC5D727107 /* Pods-HCDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F528DDC1F5BE280DBB59F0F8D0831F28 /* HCLogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCLogin.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C44D246D03DA08763FABFBE973CB683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F5F20E5360FD1F6A0858747906217F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E1D972E782841516F5592DA69FB198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043309B57D52E97E8E1395839E41ADB0 /* HCNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				2EC230796F009DB770923110D95F64B9 /* HCNetWorking.h */,
+				B7382BC1056C8394012B1A8937580971 /* HCNetWorking.m */,
+				DC6E6409EAA9EBA87AA104094D5024E0 /* Pod */,
+				3311E0E85380D05A8A1ED445E2F71435 /* Support Files */,
+			);
+			name = HCNetWorking;
+			path = ../Lib/HCNetWorking;
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11CF8CDBE67CDC6C914641827BE03BD2 /* Pods-HCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DFE63D0C1150278E09699CEBE7A6D64F /* Pods-HCDemo-acknowledgements.markdown */,
+				ED5E86B25893D7A1FB09FABC5D727107 /* Pods-HCDemo-acknowledgements.plist */,
+				234562A0AB3FB4B8993A64D2BB409B95 /* Pods-HCDemo-dummy.m */,
+				DB01A85AD72492742139F0CB14E1B5F6 /* Pods-HCDemo-frameworks.sh */,
+				4D92CFB5FADFBDCF495F65F8254898D3 /* Pods-HCDemo-resources.sh */,
+				75C322261108DFC74EF6593F9D4131EE /* Pods-HCDemo.debug.xcconfig */,
+				E663B7E0D7AEB41F0F3D2CF5D52843AE /* Pods-HCDemo.release.xcconfig */,
+			);
+			name = "Pods-HCDemo";
+			path = "Target Support Files/Pods-HCDemo";
+			sourceTree = "<group>";
+		};
+		2A85EFA5BF7025B8FA7DA8D7CE3011FE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7580B26479BEB06E032025DF31122019 /* HCLogin */,
+				043309B57D52E97E8E1395839E41ADB0 /* HCNetWorking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3311E0E85380D05A8A1ED445E2F71435 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BB060FBE9C2F844378A16F7433FAE34 /* HCNetWorking.xcconfig */,
+				01F8461C3CADBD3843D4B38046868170 /* HCNetWorking-dummy.m */,
+				3EF597B0BD0FFB17902903165193E381 /* HCNetWorking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/HCNetWorking";
+			sourceTree = "<group>";
+		};
+		7580B26479BEB06E032025DF31122019 /* HCLogin */ = {
+			isa = PBXGroup;
+			children = (
+				97F77AF4B61A87FADFC51AE58FCBA74F /* HCLogin.h */,
+				5851EAC0BB41A4074FDA0AD03B4E7502 /* HCLogin.m */,
+				778DC164D233CEE753BFDD730FB8435A /* Pod */,
+				B8DC92488567469F0552CE4D44247625 /* Support Files */,
+			);
+			name = HCLogin;
+			path = ../Lib/HCLogin;
+			sourceTree = "<group>";
+		};
+		778DC164D233CEE753BFDD730FB8435A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DF9B17BA2BA059820952D12649E53D35 /* HCLogin.podspec */,
+				BEBBFD6B6F27256075758A6F737A4894 /* LICENSE */,
+				5CDAC1D344ED500D39A7CEFFAB76EA17 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2A85EFA5BF7025B8FA7DA8D7CE3011FE /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				9AD187359757D681DD521D746A24CC73 /* Products */,
+				E22C352A76813A7367D0F54E638DD6C4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9AD187359757D681DD521D746A24CC73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00F51E39B355845DF1E78C08DF4EECB /* libHCLogin.a */,
+				A89F0A3690E028E709DAC0B638564AF2 /* libHCNetWorking.a */,
+				15CDA6209076F361D4A1DD5D29F4846F /* libPods-HCDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8DC92488567469F0552CE4D44247625 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F528DDC1F5BE280DBB59F0F8D0831F28 /* HCLogin.xcconfig */,
+				D4198946FFD7BF72998ED77E59C1774D /* HCLogin-dummy.m */,
+				7ADB48D4C62790522787EBA18AE1464B /* HCLogin-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/HCLogin";
+			sourceTree = "<group>";
+		};
+		DC6E6409EAA9EBA87AA104094D5024E0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				02524994FE8A5556AF20843B9DC6B0B1 /* HCNetWorking.podspec */,
+				B2ADE18D89911450AEE3DB9867373EDA /* LICENSE */,
+				78EC3D1FCC07A28D9B803719C107752F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E22C352A76813A7367D0F54E638DD6C4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11CF8CDBE67CDC6C914641827BE03BD2 /* Pods-HCDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		44F332BBE8FFDE6C3D04F3CAE2137B34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F068F1F5D59646A6414752788F919DC2 /* HCLogin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520066F1B7D192A6F257670C4A851604 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59E819701088E00940B2289D3FC71E6 /* HCNetWorking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D21F41FA7F407ABCDEEEDC6EFE17983E /* HCLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3C23484C5098FB59B2B5BA2CEB22D7 /* Build configuration list for PBXNativeTarget "HCLogin" */;
+			buildPhases = (
+				8E2F9E33991A252FE7004C2961C889A4 /* Sources */,
+				A6E1D972E782841516F5592DA69FB198 /* Frameworks */,
+				44F332BBE8FFDE6C3D04F3CAE2137B34 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE3516C8C3DA39FA01EABB1E4D53D2CF /* PBXTargetDependency */,
+			);
+			name = HCLogin;
+			productName = HCLogin;
+			productReference = B00F51E39B355845DF1E78C08DF4EECB /* libHCLogin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E24787C90122A744AEF28E9AFEFF61A6 /* Pods-HCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BBE0BB4D0310152A010223CE6AB2D98 /* Build configuration list for PBXNativeTarget "Pods-HCDemo" */;
+			buildPhases = (
+				BEE5B69656D93190EC144CD5BA26B001 /* Sources */,
+				76F5F20E5360FD1F6A0858747906217F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				157165FB79E4720649C5E9B72B6EBDB5 /* PBXTargetDependency */,
+				AF0A32F7AD2B77A5FE31195AB4AD561C /* PBXTargetDependency */,
+			);
+			name = "Pods-HCDemo";
+			productName = "Pods-HCDemo";
+			productReference = 15CDA6209076F361D4A1DD5D29F4846F /* libPods-HCDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EBBF41AB84A08F427837324ACFF0FBB3 /* HCNetWorking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C4BB9FBBF5DCFEEB0A6FA067D44ED9 /* Build configuration list for PBXNativeTarget "HCNetWorking" */;
+			buildPhases = (
+				2307464E36217940B0D71B75D7F8B0DA /* Sources */,
+				0C44D246D03DA08763FABFBE973CB683 /* Frameworks */,
+				520066F1B7D192A6F257670C4A851604 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCNetWorking;
+			productName = HCNetWorking;
+			productReference = A89F0A3690E028E709DAC0B638564AF2 /* libHCNetWorking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9AD187359757D681DD521D746A24CC73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D21F41FA7F407ABCDEEEDC6EFE17983E /* HCLogin */,
+				EBBF41AB84A08F427837324ACFF0FBB3 /* HCNetWorking */,
+				E24787C90122A744AEF28E9AFEFF61A6 /* Pods-HCDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2307464E36217940B0D71B75D7F8B0DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA7E222989E87F208A536C214BB8CB6 /* HCNetWorking-dummy.m in Sources */,
+				D2F769029FE4517BB5682A3DCF2FD5FC /* HCNetWorking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2F9E33991A252FE7004C2961C889A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030847ADD987D11A65DEFA9A0BF392AC /* HCLogin-dummy.m in Sources */,
+				4E3AEBBF4838737B11395F64B8B1CF9C /* HCLogin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE5B69656D93190EC144CD5BA26B001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EDA1C753085A2BF28DFCFF26AFBDD7 /* Pods-HCDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		157165FB79E4720649C5E9B72B6EBDB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HCLogin;
+			target = D21F41FA7F407ABCDEEEDC6EFE17983E /* HCLogin */;
+			targetProxy = 2D692205135C378E7E52FF8FB4543387 /* PBXContainerItemProxy */;
+		};
+		AF0A32F7AD2B77A5FE31195AB4AD561C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HCNetWorking;
+			target = EBBF41AB84A08F427837324ACFF0FBB3 /* HCNetWorking */;
+			targetProxy = 425BEF11355EBB4D690431823DAADEB7 /* PBXContainerItemProxy */;
+		};
+		BE3516C8C3DA39FA01EABB1E4D53D2CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HCNetWorking;
+			target = EBBF41AB84A08F427837324ACFF0FBB3 /* HCNetWorking */;
+			targetProxy = 7047DB367A7265A7558FE431E4893A81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		18EF463A465EFCC0D2A0136D86382CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F528DDC1F5BE280DBB59F0F8D0831F28 /* HCLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HCLogin/HCLogin-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HCLogin;
+				PRODUCT_NAME = HCLogin;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		957959C5C999AD25F0A555E08F16B041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F528DDC1F5BE280DBB59F0F8D0831F28 /* HCLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HCLogin/HCLogin-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HCLogin;
+				PRODUCT_NAME = HCLogin;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA642BE6702A405A796C7F2A8BEC8217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB060FBE9C2F844378A16F7433FAE34 /* HCNetWorking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HCNetWorking/HCNetWorking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HCNetWorking;
+				PRODUCT_NAME = HCNetWorking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2395B38D1D1C46B8B8019A999CF73FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB060FBE9C2F844378A16F7433FAE34 /* HCNetWorking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HCNetWorking/HCNetWorking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HCNetWorking;
+				PRODUCT_NAME = HCNetWorking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1FD45FC7C73F67578DD6AF655FE988F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E663B7E0D7AEB41F0F3D2CF5D52843AE /* Pods-HCDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6F3A2DA83C3616120BA3CD68A118A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C322261108DFC74EF6593F9D4131EE /* Pods-HCDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3C23484C5098FB59B2B5BA2CEB22D7 /* Build configuration list for PBXNativeTarget "HCLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957959C5C999AD25F0A555E08F16B041 /* Debug */,
+				18EF463A465EFCC0D2A0136D86382CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C4BB9FBBF5DCFEEB0A6FA067D44ED9 /* Build configuration list for PBXNativeTarget "HCNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA642BE6702A405A796C7F2A8BEC8217 /* Debug */,
+				C2395B38D1D1C46B8B8019A999CF73FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BBE0BB4D0310152A010223CE6AB2D98 /* Build configuration list for PBXNativeTarget "Pods-HCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F3A2DA83C3616120BA3CD68A118A9F /* Debug */,
+				F1FD45FC7C73F67578DD6AF655FE988F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
